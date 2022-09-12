@@ -1,0 +1,8 @@
+{
+  "parent": "italian_delight:custom/prosciutto_pizza_blockium",
+  "textures": {
+    "all": "italian_delight:blocks/new_pizza_al_prosciutto",
+    "particle": "italian_delight:blocks/new_pizza_al_prosciutto",
+    "1": "italian_delight:blocks/pizza_al_prosciutto_new_block"
+  }
+}

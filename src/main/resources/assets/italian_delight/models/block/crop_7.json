@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "italian_delight:blocks/stage7",
+    "particle": "italian_delight:blocks/stage7"
+  }
+}

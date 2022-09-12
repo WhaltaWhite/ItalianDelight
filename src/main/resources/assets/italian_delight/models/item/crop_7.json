@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "italian_delight:blocks/stage7"
+  }
+}

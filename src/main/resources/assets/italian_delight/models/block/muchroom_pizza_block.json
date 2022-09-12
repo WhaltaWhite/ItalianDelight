@@ -1,0 +1,8 @@
+{
+  "parent": "italian_delight:custom/mushroom_pizza_blockc",
+  "textures": {
+    "all": "italian_delight:blocks/top_mushroom_pizza",
+    "particle": "italian_delight:blocks/top_mushroom_pizza",
+    "0": "italian_delight:blocks/mushroom_pizza_block"
+  }
+}

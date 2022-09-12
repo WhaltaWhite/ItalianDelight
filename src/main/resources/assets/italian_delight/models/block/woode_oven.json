@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "italian_delight:blocks/wood_oven_bottom",
+    "up": "italian_delight:blocks/wood_oven_top",
+    "north": "italian_delight:blocks/wood_oven_face",
+    "east": "italian_delight:blocks/wood_oven_sides",
+    "south": "italian_delight:blocks/wood_oven_sides",
+    "west": "italian_delight:blocks/wood_oven_sides",
+    "particle": "italian_delight:blocks/wood_oven_bottom"
+  }
+}

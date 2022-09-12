@@ -1,0 +1,8 @@
+{
+  "parent": "italian_delight:custom/pizza_diavola_modelll",
+  "textures": {
+    "all": "italian_delight:blocks/pizza_diavola_top",
+    "particle": "italian_delight:blocks/pizza_diavola_top",
+    "1": "italian_delight:blocks/pizza_diavola_full"
+  }
+}

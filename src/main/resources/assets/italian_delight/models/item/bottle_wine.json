@@ -1,0 +1,7 @@
+{
+  "parent": "italian_delight:custom/wine_bottleweapon",
+  "textures": {
+    "0": "italian_delight:blocks/bottle_weapon",
+    "particle": "italian_delight:items/bottle_weapon"
+  }
+}

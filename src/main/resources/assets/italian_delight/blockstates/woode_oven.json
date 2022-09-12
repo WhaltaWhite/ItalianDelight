@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "italian_delight:block/woode_oven"
+    },
+    "facing=east": {
+      "model": "italian_delight:block/woode_oven",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "italian_delight:block/woode_oven",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "italian_delight:block/woode_oven",
+      "y": 270
+    }
+  }
+}

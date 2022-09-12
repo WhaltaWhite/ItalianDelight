@@ -1,0 +1,1052 @@
+{
+  "mod_elements": [
+    {
+      "name": "PizzaMargehrita",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_margehrita"
+    },
+    {
+      "name": "PizzaMargherita",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_margherita"
+    },
+    {
+      "name": "PizzaMargherita1quarter",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_margherita_1quarter"
+    },
+    {
+      "name": "MargheritaRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "margherita_recipe"
+    },
+    {
+      "name": "MargheritaPlace",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "margherita_place",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PizzaMargheritaSlice",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_margherita_slice"
+    },
+    {
+      "name": "PizzaMargheritaCuttingBoard",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pizza_margherita_cutting_board"
+    },
+    {
+      "name": "PizzaDiavola",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_diavola"
+    },
+    {
+      "name": "PizzaDiavolaPlaced",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_diavola_placed"
+    },
+    {
+      "name": "PizzaDiavolaRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pizza_diavola_recipe"
+    },
+    {
+      "name": "PizzaDiavolaPlace",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_diavola_place",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PizzaDiavolaSlice",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_diavola_slice"
+    },
+    {
+      "name": "PizzaDiavolaCutting",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pizza_diavola_cutting"
+    },
+    {
+      "name": "SweetBerryWine",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_berry_wine"
+    },
+    {
+      "name": "SweetBerryWineEffect",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_berry_wine_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FirstPizza",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_pizza"
+    },
+    {
+      "name": "GlowberryWine",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowberry_wine"
+    },
+    {
+      "name": "Sweetberrycraft",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sweetberrycraft"
+    },
+    {
+      "name": "GrapeSeeds",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_seeds"
+    },
+    {
+      "name": "Crop0BlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_0_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crop0",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_0"
+    },
+    {
+      "name": "GrapeSeedsRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_seeds_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crop0BlockAdded",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_0_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crop1",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_1"
+    },
+    {
+      "name": "Crop0UpdateTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_0_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crop2",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_2"
+    },
+    {
+      "name": "Crop3",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_3"
+    },
+    {
+      "name": "Crop4",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_4"
+    },
+    {
+      "name": "Crop5",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_5"
+    },
+    {
+      "name": "Crop6",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_6"
+    },
+    {
+      "name": "Crop7",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_7"
+    },
+    {
+      "name": "GrapeBunch",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_bunch"
+    },
+    {
+      "name": "Crop7Loot",
+      "type": "loottable",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_7_loot"
+    },
+    {
+      "name": "WoodeOven",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woode_oven"
+    },
+    {
+      "name": "Ovenwood",
+      "type": "gui",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ovenwood"
+    },
+    {
+      "name": "WoodeOvenUpdateTick",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woode_oven_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Showfire",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "showfire",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OvenDisplayTick",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oven_display_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RawMargherita",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_margherita"
+    },
+    {
+      "name": "RawMargheritaCook",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_margherita_cook"
+    },
+    {
+      "name": "Salami",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salami"
+    },
+    {
+      "name": "SalamiPieces",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salami_pieces"
+    },
+    {
+      "name": "SalamiRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "salami_recipe"
+    },
+    {
+      "name": "RawDiavola",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_diavola"
+    },
+    {
+      "name": "WineSalami",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine_salami"
+    },
+    {
+      "name": "SalamiRecipee",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salami_recipee"
+    },
+    {
+      "name": "Covermeinwine",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "covermeinwine"
+    },
+    {
+      "name": "Rosewine",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewine"
+    },
+    {
+      "name": "GlowberryWinePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowberry_wine_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RosewinePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewine_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlowBerryCraft",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glow_berry_craft"
+    },
+    {
+      "name": "RoseWineCraft",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rose_wine_craft"
+    },
+    {
+      "name": "PizzaAlProsciutto",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_al_prosciutto"
+    },
+    {
+      "name": "PizzaalProsciutoo",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ham_pizza"
+    },
+    {
+      "name": "HamPizzaPlaced",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ham_pizza_placed"
+    },
+    {
+      "name": "RawHamPizzaCook",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_ham_pizza_cook"
+    },
+    {
+      "name": "RawDiavolaCook",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_diavola_cook"
+    },
+    {
+      "name": "PizzaalProsciutooRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizzaal_prosciutoo_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItalianDelight",
+      "type": "tab",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "italian_delight"
+    },
+    {
+      "name": "BottleWine",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_wine"
+    },
+    {
+      "name": "SweetBerryWineLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_berry_wine_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SweetBerryWineEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_berry_wine_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RawMushroomPizza",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_mushroom_pizza"
+    },
+    {
+      "name": "MushroomPizza",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_pizza"
+    },
+    {
+      "name": "MuchroomPizzaBlock",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muchroom_pizza_block"
+    },
+    {
+      "name": "MushroomPizzaRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_pizza_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RawMushroomPizzaCraft",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_mushroom_pizza_craft"
+    },
+    {
+      "name": "RawMushroomPizzaCrafting",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "raw_mushroom_pizza_crafting"
+    },
+    {
+      "name": "MushroomPizzaSlice",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_pizza_slice"
+    },
+    {
+      "name": "MushroomPizzaCraft",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mushroom_pizza_craft"
+    },
+    {
+      "name": "PizzaProsciuttoSlice",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_prosciutto_slice"
+    },
+    {
+      "name": "HamPizzaCrafting",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ham_pizza_crafting"
+    },
+    {
+      "name": "SpumantePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spumante_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spumante",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spumante"
+    },
+    {
+      "name": "SpumanteCrafting",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spumante_crafting"
+    },
+    {
+      "name": "HamPizzaCraft",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ham_pizza_craft"
+    },
+    {
+      "name": "SalamiPiecesRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "salami_pieces_recipe"
+    },
+    {
+      "name": "IronPizzaPeel",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_pizza_peel"
+    },
+    {
+      "name": "PizzaPeelIronCrafting",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_peel_iron_crafting"
+    },
+    {
+      "name": "Crop7BlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_7_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabitalian_delight": "Italian Delight",
+      "item.italian_delight.grape_seeds": "Grape Seeds",
+      "block.italian_delight.pizza_diavola_placed": "Pizza Diavola Placed",
+      "advancements.first_pizza.descr": "make your first pizza!",
+      "item.italian_delight.salami": "Salami",
+      "item.italian_delight.glowberry_wine": "Glowberry Wine",
+      "item.italian_delight.pizza_margherita_slice": "Pizza Margherita Slice",
+      "item.italian_delight.salami_pieces": "Salami Pieces",
+      "item.italian_delight.raw_mushroom_pizza": "Raw Mushroom Pizza",
+      "item.italian_delight.sweet_berry_wine": "Sweet Berry Wine",
+      "item.italian_delight.pizza_diavola": "Cooked pizza Diavola",
+      "advancements.first_pizza.title": "It\u0027s pizza time!",
+      "block.italian_delight.crop_6": "Grape Crop",
+      "block.italian_delight.crop_7": "Crop 7",
+      "item.italian_delight.bottle_wine": "Bottle Wine",
+      "item.italian_delight.wine_salami": "Wine Salami",
+      "item.italian_delight.rosewine": "Rosewine",
+      "item.italian_delight.pizza_prosciutto_slice": "Ham Pizza Slice",
+      "block.italian_delight.crop_0": "Grape Crop",
+      "block.italian_delight.crop_1": "Grape Crop",
+      "block.italian_delight.ham_pizza_placed": "Ham Pizza Placed",
+      "block.italian_delight.pizza_margherita": "Pizza Margherita",
+      "block.italian_delight.crop_2": "Grape Crop",
+      "item.italian_delight.pizza_margehrita": "Cooked pizza Margehrita",
+      "block.italian_delight.crop_3": "Grape Crop",
+      "block.italian_delight.crop_4": "Grape Crop",
+      "block.italian_delight.crop_5": "Grape Crop",
+      "item.italian_delight.mushroom_pizza_slice": "Mushroom Pizza Slice",
+      "item.italian_delight.grape_bunch": "Grape Bunch",
+      "block.italian_delight.pizza_margherita_1quarter": "Pizza Margherita 1quarter",
+      "item.italian_delight.spumante": "Spumante",
+      "block.italian_delight.woode_oven": "Woode Oven",
+      "item.italian_delight.mushroom_pizza": "Mushroom Pizza",
+      "block.italian_delight.muchroom_pizza_block": "Mushroom Pizza Block",
+      "item.italian_delight.raw_diavola": "Raw Pizza Diavola",
+      "item.italian_delight.pizza_al_prosciutto": "Raw ham pizza",
+      "item.italian_delight.raw_margherita": "Raw Margherita",
+      "advancements.covermeinwine.descr": "Create your first wine salami!",
+      "item.italian_delight.iron_pizza_peel": "Iron Pizza Peel",
+      "advancements.covermeinwine.title": "Cover me in wine!",
+      "item.italian_delight.pizza_diavola_slice": "Pizza Diavola Slice",
+      "item.italian_delight.ham_pizza": "Cooked Ham pizza"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "GrapeCrop",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "italian_delight",
+    "modName": "Italian Delight",
+    "version": "Beta 0.8",
+    "description": "ever wanted to have more italian foods? this mod is just what you need!",
+    "author": "PurpZ_The_Great",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "italian_delighto",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.italiandelight",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

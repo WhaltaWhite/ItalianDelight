@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "pizza_diavola_full"
+      },
+      "name": "default"
+    }
+  }
+}

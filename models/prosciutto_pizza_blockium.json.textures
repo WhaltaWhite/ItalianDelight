@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "pizza_al_prosciutto_new_block"
+      },
+      "name": "default"
+    }
+  }
+}
